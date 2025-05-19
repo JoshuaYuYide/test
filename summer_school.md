@@ -19,12 +19,202 @@ Enrique Mallada博士2016年加入约翰霍普金斯大学，自2022年起担任
 高瑜隆博士于2013年和2016年在北京理工大学分别获得自动化学士学位和控制科学与工程硕士学位，2021年在瑞典皇家理工学院与新加坡南洋理工大学获得电气工程联合博士学位。2021-2022年在瑞典皇家理工学院担任研究员，2022-2023年在英国牛津大学担任博士后，2024年起任英国帝国理工学院电气与电子工程系讲师（助理教授）。研究兴趣包括形式化验证与控制、机器学习及其在安全攸关系统中的应用。
 
 ## 课程设置：三大课程，筑牢知识体系
-### 强化学习基础与前沿
-EnriqueMallada博士将以最优控制、动态规划和机器学习的数学基础为支撑，深入讲解强化学习。内容涵盖基于模型的确定性和随机动态规划等方法，以及无模型的强化学习方法，包括策略内外的表格方法（如蒙特卡洛、时间差分）、近似求解方法（如策略内外近似、策略梯度方法、演员-评论家算法）等。课程最后将回顾该领域的前沿和应用。
-### 机器学习中的优化方法
-凌青教授的课程将介绍凸优化问题及其对偶理论，讲解求解凸优化问题的一阶无约束优化算法、二阶无约束优化算法、有约束优化算法，并阐述这些优化算法在机器学习等领域的应用，让你掌握优化方法在机器学习中的关键作用。
-### 控制与学习理论
-高瑜隆博士的课程旨在介绍确保自主系统安全的原理、方法和挑战。通过融合先进控制理论、形式验证和数据驱动理论，涵盖理论基础、算法技术和实际应用，带你探索控制与学习理论在自主系统安全领域的前沿知识。
+### 课程1：Foundations of Reinforcement Learning
+
+- 课程简介
+The course will provide a rigorous treatment of reinforcement learning by building on the mathematical foundations laid by optimal control, dynamic programming, and machine learning. Topics include model-based methods such as deterministic and stochastic dynamic programming, as well as model-free methods that are broadly identified as Reinforcement Learning. In particular, we will cover on and off-policy tabular methods such as Monte Carlo, Temporal Differences, as well as approximate solution methods, including on- and off-policy approximation, policy gradient methods, actor-critic algorithms. Frontiers and applications will be reviewed at the end of the course.
+ 
+- 授课教师
+Enrique Mallada has been an Associate Professor of Electrical and Computer Engineering at Johns Hopkins University since 2022. Before joining Hopkins in 2016, he was a Post-Doctoral Fellow in the Center for the Mathematics of Information at Caltech from 2014 to 2016. He received his Ingeniero en Telecomunicaciones degree from Universidad ORT, Uruguay, in 2005 and his Ph.D. in Electrical and Computer Engineering with a minor in Applied Mathematics from Cornell University in 2014. Dr. Mallada has received the Johns Hopkins Alumni Association Teaching Award in 2021, the NSF CAREER award in 2018, the Center for the Mathematics of Information (CMI) Fellowship from Caltech in 2014, and the Cornell ECE Director’s Ph.D. Thesis Research Award in 2014. His research interests lie in control and dynamical systems, machine learning, and optimization, with applications to safety-critical networks and systems.
+
+- 课程安排
+10讲 × 每讲2小时
+
+- 课程内容
+  - Lecture 1: What is Reinforcement Learning?
+  	- Agent-environment loop
+  	- MDPs: states, actions, transitions, rewards
+  	- Episodic vs continuing tasks
+  	- Finite vs infinite horizon
+  	- Policies: deterministic, stochastic, Markov
+  	- Return: discounted, average
+
+Lecture 2: Value Functions and Optimality
+	State value, action value, Bellman expectations
+	Optimality and Bellman optimality equations
+	Greedy policies (conceptual)
+
+Lecture 3: Dynamic Programming
+	Value iteration
+	Policy iteration
+	Generalized policy iteration (GPI)
+	Convergence
+	Contraction mappings 
+	Planning in known MDPs
+
+Lecture 4: Multi-Armed Bandits
+	K-armed bandits
+	Regret and exploration
+	Epsilon-greedy
+	Optimistic initialization
+	UCB
+	Gradient bandits
+
+Lecture 5: Monte Carlo Methods
+	First-visit vs every-visit
+	Monte Carlo prediction and control
+	Exploring starts
+	epsilon-soft policies
+
+Lecture 6: Temporal Difference Learning
+	TD(0)
+	SARSA 
+	Q-learning
+	Online learning
+	Bootstrapping
+	n-step returns (brief), 
+	Comparison: MC vs TD vs DP
+
+Lecture 7: Function Approximation
+	Curse of dimensionality
+	Linear value function approximation
+	Semi-gradient TD
+	Divergence issues (high-level)
+
+Lecture 8: Policy Gradient Methods
+	REINFORCE algorithm
+	Policy gradient theorem
+	Baselines
+	Variance reduction
+	Gaussian policies
+
+Lecture 9: Actor-Critic Overview + Deep RL Teasers
+	Actor-Critic idea
+	A3C-style learning (conceptual only)
+	Why Deep RL is hard
+	Replay buffers
+	Target networks (intro only)
+
+Lecture 10: Frontiers and Applications
+	Transfer RL
+	Offline RL
+	Safe RL
+	Human feedback (RLHF)
+	Real-world use cases: DQN for Atari
+	AlphaGo/AlphaZero
+	ChatGPT fine-tuning
+
+
+==================
+
+课程2：最优化理论与算法
+
+- 课程简介
+本课程介绍凸优化问题及其对偶理论；介绍求解凸优化问题的一阶无约束优化算法、二阶无约束优化算法、有约束优化算法；介绍上述优化算法在机器学习等领域的应用。
+
+-授课教师
+凌青2001年与2006年于中国科学技术大学自动化系分别获得学士与博士学位，2006年至2009年担任密歇根理工大学电子工程与计算机科学系博士后研究员。2009年至2017年任教于中国科学技术大学自动化系，其间曾担任宾夕法尼亚大学电子与系统工程系访问学者、微软亚洲研究院铸星计划访问学者。2017年起担任中山大学计算机学院教授、博士生导师。研究工作获得IEEE信号处理协会青年作者最佳论文奖（2次）、广东省科技进步奖二等奖等，指导研究生入选中国电子学会优秀硕士论文激励计划。曾担任IEEE Signal Processing Letters期刊编辑与资深编辑、IEEE Transactions on Network and Service Management期刊编辑、IEEE SPAWC 2023会议TPC Chair，现担任IEEE Transactions on Signal Processing期刊编辑。
+
+- 课程安排
+9讲 × 每讲2小时
+
+- 课程内容
+第一讲：
+	凸集、凸函数
+	凸优化问题
+	应用实例：最小二乘类问题
+
+第二讲：
+	对偶问题
+	KKT条件
+	应用实例：注水算法
+
+第三讲：
+	迭代算法的一般格式与步长规则
+	梯度下降法的迭代格式
+	梯度下降法的次线性收敛速度
+
+第四讲：
+	梯度下降法的线性收敛速度
+	梯度下降法的变种
+	坐标轮换法
+	应用实例：K-Means算法
+
+第五讲：
+	次梯度法的迭代格式
+	次梯度法的收敛速度
+	邻近点梯度法的迭代格式
+	应用实例：迭代软门限算法
+
+第六讲：
+	随机梯度法的迭代格式
+	随机梯度法的梯度噪声
+	深度学习中的加速算法与步长规则
+
+第七讲：
+	牛顿法的迭代格式
+	牛顿法的收敛性质
+	拟牛顿法的迭代格式
+
+第八讲：
+	约束满足牛顿法的迭代格式
+	拉格朗日乘子法的迭代格式
+	增广拉格朗日法的迭代格式
+
+第九讲：
+	交替方向乘子法的迭代格式
+	应用实例：分布式优化
+
+
+==================
+
+课程3：Learning-Based Safe Control under Uncertainty
+
+- 课程简介
+This course aims to introduce the principles, methods, and challenges of ensuring safety in autonomous systems. We will cover theoretical foundations, algorithmic techniques, and practical applications by blending advanced control theory, formal verification, and data-driven theory. 
+
+- 授课教师
+Yulong Gao received the B.E. degree in automation and the M.E. degree in control science and engineering from Beijing Institute of Technology, Beijing, China, in 2013 and 2016, respectively, and the joint Ph.D. degree in electrical engineering from the KTH Royal Institute of Technology, Stockholm, Sweden, and Nanyang Technological University, Singapore, in 2021. He was a Researcher at KTH from 2021 to 2022 and a Post-Doctoral Researcher at the University of Oxford, Oxford, U.K., from 2022 to 2023. He has been a Lecturer (Assistant Professor) at the Department of Electrical and Electronic Engineering, Imperial College London, London, U.K., since 2024. His research interests include formal verification and control, machine learning, and applications to safety-critical systems.
+
+- 课程安排
+5讲 × 每讲3小时
+
+- 课程内容
+Lecture 1: Introduction and Preliminaries
+	What is safe control?
+	Motivation for learning-based safe control 
+	Autonomous system modelling 
+	Safety definitions
+	Reachability analysis (definition, set representation, and computational algorithms)
+
+Lecture 2: Learning-based Safe Predictive Control
+	Deterministic model predictive control 
+	Robust tube model predictive control 
+	Learning-based tube model predictive control
+
+Lecture 3: Learning-based Safe Motion Planning 
+	Basic safe motion planning
+	Safe planning by learning obstacle uncertainty 
+	Environment-aware safe planning
+
+Lecture 4: Learning-based safe control with complex speficications (I)
+	Basics of formal methods 
+	Linear temporal logic
+	Temporal logic trees
+	Temporal logic tree-based model checking
+	Temporal logic tree-based control synthesis
+
+Lecture 5: Learning-based safe control with complex speficications (II)
+	Integration with learning-based adaptive task planner
+	Application to shared autonomy
+	Extension to signal temporol logic
+	Emerging research directions: online learning with safety guarantees, human-in-the-loop safety
+
+## 课程表
+
+| 一 | 二 | 三 | 四 | 五 | 六 | 日 |  
+|----|----|----|----|----|----|----|  
+|    |    |    | 1 | 2 | 3★劳动节 | 4 |  
 
 ## 招生简章
 ### 申请要求
