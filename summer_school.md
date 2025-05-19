@@ -109,7 +109,7 @@ Enrique Mallada has been an Associate Professor of Electrical and Computer Engin
 - 课程简介
 本课程介绍凸优化问题及其对偶理论；介绍求解凸优化问题的一阶无约束优化算法、二阶无约束优化算法、有约束优化算法；介绍上述优化算法在机器学习等领域的应用。
 
--授课教师
+- 授课教师
 凌青2001年与2006年于中国科学技术大学自动化系分别获得学士与博士学位，2006年至2009年担任密歇根理工大学电子工程与计算机科学系博士后研究员。2009年至2017年任教于中国科学技术大学自动化系，其间曾担任宾夕法尼亚大学电子与系统工程系访问学者、微软亚洲研究院铸星计划访问学者。2017年起担任中山大学计算机学院教授、博士生导师。研究工作获得IEEE信号处理协会青年作者最佳论文奖（2次）、广东省科技进步奖二等奖等，指导研究生入选中国电子学会优秀硕士论文激励计划。曾担任IEEE Signal Processing Letters期刊编辑与资深编辑、IEEE Transactions on Network and Service Management期刊编辑、IEEE SPAWC 2023会议TPC Chair，现担任IEEE Transactions on Signal Processing期刊编辑。
 
 - 课程安排
