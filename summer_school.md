@@ -39,75 +39,72 @@ Enrique Mallada has been an Associate Professor of Electrical and Computer Engin
   	- Policies: deterministic, stochastic, Markov
   	- Return: discounted, average
 
-Lecture 2: Value Functions and Optimality
-	State value, action value, Bellman expectations
-	Optimality and Bellman optimality equations
-	Greedy policies (conceptual)
+  - Lecture 2: Value Functions and Optimality
+	- State value, action value, Bellman expectations
+	- Optimality and Bellman optimality equations
+	- Greedy policies (conceptual)
 
-Lecture 3: Dynamic Programming
-	Value iteration
-	Policy iteration
-	Generalized policy iteration (GPI)
-	Convergence
-	Contraction mappings 
-	Planning in known MDPs
+  - Lecture 3: Dynamic Programming
+	- Value iteration
+	- Policy iteration
+	- Generalized policy iteration (GPI)
+	- Convergence
+	- Contraction mappings 
+	- Planning in known MDPs
 
-Lecture 4: Multi-Armed Bandits
-	K-armed bandits
-	Regret and exploration
-	Epsilon-greedy
-	Optimistic initialization
-	UCB
-	Gradient bandits
+  - Lecture 4: Multi-Armed Bandits
+	- K-armed bandits
+	- Regret and exploration
+	- Epsilon-greedy
+	- Optimistic initialization
+	- UCB
+	- Gradient bandits
 
-Lecture 5: Monte Carlo Methods
-	First-visit vs every-visit
-	Monte Carlo prediction and control
-	Exploring starts
-	epsilon-soft policies
+  - Lecture 5: Monte Carlo Methods
+	- First-visit vs every-visit
+	- Monte Carlo prediction and control
+	- Exploring starts
+	- epsilon-soft policies
 
-Lecture 6: Temporal Difference Learning
-	TD(0)
-	SARSA 
-	Q-learning
-	Online learning
-	Bootstrapping
-	n-step returns (brief), 
-	Comparison: MC vs TD vs DP
+  - Lecture 6: Temporal Difference Learning
+	- TD(0)
+	- SARSA 
+	- Q-learning
+	- Online learning
+	- Bootstrapping
+	- n-step returns (brief), 
+	- Comparison: MC vs TD vs DP
 
-Lecture 7: Function Approximation
-	Curse of dimensionality
-	Linear value function approximation
-	Semi-gradient TD
-	Divergence issues (high-level)
+  - Lecture 7: Function Approximation
+	- Curse of dimensionality
+	- Linear value function approximation
+	- Semi-gradient TD
+	- Divergence issues (high-level)
 
-Lecture 8: Policy Gradient Methods
-	REINFORCE algorithm
-	Policy gradient theorem
-	Baselines
-	Variance reduction
-	Gaussian policies
+  - Lecture 8: Policy Gradient Methods
+	- REINFORCE algorithm
+	- Policy gradient theorem
+	- Baselines
+	- Variance reduction
+	- Gaussian policies
 
-Lecture 9: Actor-Critic Overview + Deep RL Teasers
-	Actor-Critic idea
-	A3C-style learning (conceptual only)
-	Why Deep RL is hard
-	Replay buffers
-	Target networks (intro only)
+  - Lecture 9: Actor-Critic Overview + Deep RL Teasers
+	- Actor-Critic idea
+	- A3C-style learning (conceptual only)
+	- Why Deep RL is hard
+	- Replay buffers
+	- Target networks (intro only)
 
-Lecture 10: Frontiers and Applications
-	Transfer RL
-	Offline RL
-	Safe RL
-	Human feedback (RLHF)
-	Real-world use cases: DQN for Atari
-	AlphaGo/AlphaZero
-	ChatGPT fine-tuning
+  - Lecture 10: Frontiers and Applications
+	- Transfer RL
+	- Offline RL
+	- Safe RL
+	- Human feedback (RLHF)
+	- Real-world use cases: DQN for Atari
+	- AlphaGo/AlphaZero
+	- ChatGPT fine-tuning
 
-
-==================
-
-课程2：最优化理论与算法
+### 课程2：最优化理论与算法
 
 - 课程简介
 本课程介绍凸优化问题及其对偶理论；介绍求解凸优化问题的一阶无约束优化算法、二阶无约束优化算法、有约束优化算法；介绍上述优化算法在机器学习等领域的应用。
@@ -119,56 +116,53 @@ Lecture 10: Frontiers and Applications
 9讲 × 每讲2小时
 
 - 课程内容
-第一讲：
-	凸集、凸函数
-	凸优化问题
-	应用实例：最小二乘类问题
+- 第一讲：
+	- 凸集、凸函数
+	- 凸优化问题
+	- 应用实例：最小二乘类问题
 
-第二讲：
-	对偶问题
-	KKT条件
-	应用实例：注水算法
+- 第二讲：
+	- 对偶问题
+	- KKT条件
+	- 应用实例：注水算法
 
-第三讲：
-	迭代算法的一般格式与步长规则
-	梯度下降法的迭代格式
-	梯度下降法的次线性收敛速度
+- 第三讲：
+	- 迭代算法的一般格式与步长规则
+	- 梯度下降法的迭代格式
+	- 梯度下降法的次线性收敛速度
 
-第四讲：
-	梯度下降法的线性收敛速度
-	梯度下降法的变种
-	坐标轮换法
-	应用实例：K-Means算法
+- 第四讲：
+	- 梯度下降法的线性收敛速度
+	- 梯度下降法的变种
+	- 坐标轮换法
+	- 应用实例：K-Means算法
 
-第五讲：
-	次梯度法的迭代格式
-	次梯度法的收敛速度
-	邻近点梯度法的迭代格式
-	应用实例：迭代软门限算法
+- 第五讲：
+	- 次梯度法的迭代格式
+	- 次梯度法的收敛速度
+	- 邻近点梯度法的迭代格式
+	- 应用实例：迭代软门限算法
 
-第六讲：
-	随机梯度法的迭代格式
-	随机梯度法的梯度噪声
-	深度学习中的加速算法与步长规则
+- 第六讲：
+	- 随机梯度法的迭代格式
+	- 随机梯度法的梯度噪声
+	- 深度学习中的加速算法与步长规则
 
-第七讲：
-	牛顿法的迭代格式
-	牛顿法的收敛性质
-	拟牛顿法的迭代格式
+- 第七讲：
+	- 牛顿法的迭代格式
+	- 牛顿法的收敛性质
+	- 拟牛顿法的迭代格式
 
-第八讲：
-	约束满足牛顿法的迭代格式
-	拉格朗日乘子法的迭代格式
-	增广拉格朗日法的迭代格式
+- 第八讲：
+	- 约束满足牛顿法的迭代格式
+	- 拉格朗日乘子法的迭代格式
+	- 增广拉格朗日法的迭代格式
 
-第九讲：
-	交替方向乘子法的迭代格式
-	应用实例：分布式优化
+- 第九讲：
+	- 交替方向乘子法的迭代格式
+	- 应用实例：分布式优化
 
-
-==================
-
-课程3：Learning-Based Safe Control under Uncertainty
+### 课程3：Learning-Based Safe Control under Uncertainty
 
 - 课程简介
 This course aims to introduce the principles, methods, and challenges of ensuring safety in autonomous systems. We will cover theoretical foundations, algorithmic techniques, and practical applications by blending advanced control theory, formal verification, and data-driven theory. 
@@ -180,41 +174,46 @@ Yulong Gao received the B.E. degree in automation and the M.E. degree in control
 5讲 × 每讲3小时
 
 - 课程内容
-Lecture 1: Introduction and Preliminaries
-	What is safe control?
-	Motivation for learning-based safe control 
-	Autonomous system modelling 
-	Safety definitions
-	Reachability analysis (definition, set representation, and computational algorithms)
+- Lecture 1: Introduction and Preliminaries
+	- What is safe control?
+	- Motivation for learning-based safe control 
+	- Autonomous system modelling 
+	- Safety definitions
+	- Reachability analysis (definition, set representation, and computational algorithms)
 
-Lecture 2: Learning-based Safe Predictive Control
-	Deterministic model predictive control 
-	Robust tube model predictive control 
-	Learning-based tube model predictive control
+- Lecture 2: Learning-based Safe Predictive Control
+	- Deterministic model predictive control 
+	- Robust tube model predictive control 
+	- Learning-based tube model predictive control
 
-Lecture 3: Learning-based Safe Motion Planning 
-	Basic safe motion planning
-	Safe planning by learning obstacle uncertainty 
-	Environment-aware safe planning
+- Lecture 3: Learning-based Safe Motion Planning 
+	- Basic safe motion planning
+	- Safe planning by learning obstacle uncertainty 
+	- Environment-aware safe planning
 
-Lecture 4: Learning-based safe control with complex speficications (I)
-	Basics of formal methods 
-	Linear temporal logic
-	Temporal logic trees
-	Temporal logic tree-based model checking
-	Temporal logic tree-based control synthesis
+- Lecture 4: Learning-based safe control with complex speficications (I)
+	- Basics of formal methods 
+	- Linear temporal logic
+	- Temporal logic trees
+	- Temporal logic tree-based model checking
+	- Temporal logic tree-based control synthesis
 
-Lecture 5: Learning-based safe control with complex speficications (II)
-	Integration with learning-based adaptive task planner
-	Application to shared autonomy
-	Extension to signal temporol logic
-	Emerging research directions: online learning with safety guarantees, human-in-the-loop safety
+- Lecture 5: Learning-based safe control with complex speficications (II)
+	- Integration with learning-based adaptive task planner
+	- Application to shared autonomy
+	- Extension to signal temporol logic
+	- Emerging research directions: online learning with safety guarantees, human-in-the-loop safety
 
-## 课程表
+## 课程表（7月）
 
-| 一 | 二 | 三 | 四 | 五 | 六 | 日 |  
+| 日 | 一 | 二 | 三 | 四 | 五 | 六 |  
 |----|----|----|----|----|----|----|  
-|    |    |    | 1 | 2 | 3★劳动节 | 4 |  
+| **30**（6月） | **1** | **2** | **3** | **4** | **5** | **6** |  
+| **7** | **8** | **9** | **10** | **11** | **12** | **13** |  
+| **14** | **15** | **16** | **17** | **18** | **19** | **20** |  
+| **21** | **22** | **23** | **24** | **25** | **26** | **27** |  
+| **28** | **29** | **30** | **31** | **1**（8月） | **2**（8月） | **3**（8月） |
+
 
 ## 招生简章
 ### 申请要求
