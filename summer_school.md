@@ -21,15 +21,15 @@ Enrique Mallada博士2016年加入约翰霍普金斯大学，自2022年起担任
 ## 课程设置：三大课程，筑牢知识体系
 ### 课程1：Foundations of Reinforcement Learning
 
-- 课程简介
+#### 课程简介
 
 The course will provide a rigorous treatment of reinforcement learning by building on the mathematical foundations laid by optimal control, dynamic programming, and machine learning. Topics include model-based methods such as deterministic and stochastic dynamic programming, as well as model-free methods that are broadly identified as Reinforcement Learning. In particular, we will cover on and off-policy tabular methods such as Monte Carlo, Temporal Differences, as well as approximate solution methods, including on- and off-policy approximation, policy gradient methods, actor-critic algorithms. Frontiers and applications will be reviewed at the end of the course.
- 
-- 授课教师
+
+#### 授课教师
 
 Enrique Mallada
 
-- 课程内容
+#### 课程内容
   - Lecture 1: What is Reinforcement Learning?
   	- Agent-environment loop
   	- MDPs: states, actions, transitions, rewards
@@ -105,15 +105,15 @@ Enrique Mallada
 
 ### 课程2：最优化理论与算法
 
-- 课程简介
+#### 课程简介
 
 本课程介绍凸优化问题及其对偶理论；介绍求解凸优化问题的一阶无约束优化算法、二阶无约束优化算法、有约束优化算法；介绍上述优化算法在机器学习等领域的应用。
 
-- 授课教师
+#### 授课教师
 
 凌青
 
-- 课程内容
+#### 课程内容
 - 第一讲：
 	- 凸集、凸函数
 	- 凸优化问题
@@ -162,15 +162,15 @@ Enrique Mallada
 
 ### 课程3：Learning-Based Safe Control under Uncertainty
 
-- 课程简介
+#### 课程简介
 
 This course aims to introduce the principles, methods, and challenges of ensuring safety in autonomous systems. We will cover theoretical foundations, algorithmic techniques, and practical applications by blending advanced control theory, formal verification, and data-driven theory. 
 
-- 授课教师
+#### 授课教师
 
 高瑜隆
 
-- 课程内容
+#### 课程内容
 - Lecture 1: Introduction and Preliminaries
 	- What is safe control?
 	- Motivation for learning-based safe control 
