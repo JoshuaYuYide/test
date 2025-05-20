@@ -25,10 +25,7 @@ Enrique Mallada博士2016年加入约翰霍普金斯大学，自2022年起担任
 The course will provide a rigorous treatment of reinforcement learning by building on the mathematical foundations laid by optimal control, dynamic programming, and machine learning. Topics include model-based methods such as deterministic and stochastic dynamic programming, as well as model-free methods that are broadly identified as Reinforcement Learning. In particular, we will cover on and off-policy tabular methods such as Monte Carlo, Temporal Differences, as well as approximate solution methods, including on- and off-policy approximation, policy gradient methods, actor-critic algorithms. Frontiers and applications will be reviewed at the end of the course.
  
 - 授课教师
-Enrique Mallada has been an Associate Professor of Electrical and Computer Engineering at Johns Hopkins University since 2022. Before joining Hopkins in 2016, he was a Post-Doctoral Fellow in the Center for the Mathematics of Information at Caltech from 2014 to 2016. He received his Ingeniero en Telecomunicaciones degree from Universidad ORT, Uruguay, in 2005 and his Ph.D. in Electrical and Computer Engineering with a minor in Applied Mathematics from Cornell University in 2014. Dr. Mallada has received the Johns Hopkins Alumni Association Teaching Award in 2021, the NSF CAREER award in 2018, the Center for the Mathematics of Information (CMI) Fellowship from Caltech in 2014, and the Cornell ECE Director’s Ph.D. Thesis Research Award in 2014. His research interests lie in control and dynamical systems, machine learning, and optimization, with applications to safety-critical networks and systems.
-
-- 课程安排
-10讲 × 每讲2小时
+Enrique Mallada
 
 - 课程内容
   - Lecture 1: What is Reinforcement Learning?
@@ -110,10 +107,7 @@ Enrique Mallada has been an Associate Professor of Electrical and Computer Engin
 本课程介绍凸优化问题及其对偶理论；介绍求解凸优化问题的一阶无约束优化算法、二阶无约束优化算法、有约束优化算法；介绍上述优化算法在机器学习等领域的应用。
 
 - 授课教师
-凌青2001年与2006年于中国科学技术大学自动化系分别获得学士与博士学位，2006年至2009年担任密歇根理工大学电子工程与计算机科学系博士后研究员。2009年至2017年任教于中国科学技术大学自动化系，其间曾担任宾夕法尼亚大学电子与系统工程系访问学者、微软亚洲研究院铸星计划访问学者。2017年起担任中山大学计算机学院教授、博士生导师。研究工作获得IEEE信号处理协会青年作者最佳论文奖（2次）、广东省科技进步奖二等奖等，指导研究生入选中国电子学会优秀硕士论文激励计划。曾担任IEEE Signal Processing Letters期刊编辑与资深编辑、IEEE Transactions on Network and Service Management期刊编辑、IEEE SPAWC 2023会议TPC Chair，现担任IEEE Transactions on Signal Processing期刊编辑。
-
-- 课程安排
-9讲 × 每讲2小时
+凌青
 
 - 课程内容
 - 第一讲：
@@ -168,10 +162,7 @@ Enrique Mallada has been an Associate Professor of Electrical and Computer Engin
 This course aims to introduce the principles, methods, and challenges of ensuring safety in autonomous systems. We will cover theoretical foundations, algorithmic techniques, and practical applications by blending advanced control theory, formal verification, and data-driven theory. 
 
 - 授课教师
-Yulong Gao received the B.E. degree in automation and the M.E. degree in control science and engineering from Beijing Institute of Technology, Beijing, China, in 2013 and 2016, respectively, and the joint Ph.D. degree in electrical engineering from the KTH Royal Institute of Technology, Stockholm, Sweden, and Nanyang Technological University, Singapore, in 2021. He was a Researcher at KTH from 2021 to 2022 and a Post-Doctoral Researcher at the University of Oxford, Oxford, U.K., from 2022 to 2023. He has been a Lecturer (Assistant Professor) at the Department of Electrical and Electronic Engineering, Imperial College London, London, U.K., since 2024. His research interests include formal verification and control, machine learning, and applications to safety-critical systems.
-
-- 课程安排
-5讲 × 每讲3小时
+高瑜隆
 
 - 课程内容
 - Lecture 1: Introduction and Preliminaries
